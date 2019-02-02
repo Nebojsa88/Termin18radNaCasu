@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="key1"
+        android:title="Pozadinsko osvetljenje"
+        android:summary="Uljucuje i iskljucuje pozadinsko osvetljnje"
+        android:defaultValue="true"
+        android:summaryOff="Iskljuceno, pritisnite ponovo da bi ste ukljucili"
+        android:summaryOn="Ukljuceno pritisnite ponovo da bi ste iskljucili"
+
+
+        ></CheckBoxPreference>
+
+    <EditTextPreference
+        android:key="key2"
+        android:title="Korisnicko ime"
+        android:defaultValue="b"
+        android:summary="Unesite korisnicko ime"
+
+
+
+
+        ></EditTextPreference>
+
+</PreferenceScreen>
